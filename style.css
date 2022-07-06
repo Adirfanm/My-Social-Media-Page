@@ -1,0 +1,59 @@
+body {
+  background: rgb(236, 236, 236);
+}
+
+.row-social-media {
+  height: 100vh;
+}
+
+#wrapper {
+  box-shadow: 1px 5px 15px -3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px 5px 15px -3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 5px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+  height: 400px;
+  background-color: #eee;
+  box-sizing: content-box;
+}
+
+.link-wrap {
+  border: 2px solid transparent;
+  transition: ease 0.2s;
+}
+
+.link-wrap:hover {
+  transform: translateX(12px);
+}
+
+.link-wrap:first-child:hover {
+  border: 2px solid rgb(10, 102, 194);
+}
+.link-wrap:nth-child(2):hover {
+  border: 2px solid rgb(204, 33, 39);
+}
+.link-wrap:nth-child(3):hover {
+  border: 2px solid rgb(42, 171, 238);
+}
+.link-wrap:nth-child(4):hover {
+  border: 2px solid #000;
+}
+.link-wrap:last-child:hover {
+  border-image: linear-gradient(45deg, #f0f, #ff0);
+  border-image-slice: 1;
+}
+
+.link-wrap a {
+  text-decoration: none;
+  color: black;
+}
+
+.link-wrap a:last-child {
+  margin-left: 1.5rem;
+}
+
+.sosmed-icon {
+  width: 35px;
+  height: auto;
+}
